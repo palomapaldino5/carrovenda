@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR Best Savior</title>
+    <!-- Link para uma biblioteca de ícones (Font Awesome) -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="img/logo.png" alt="Logo">
+        <h1>Vendedora de Carros</h1>
+        <div class="header-menu">
+            <select>
+                <option value="" disabled selected>Selecione o Catálogo</option>
+                <option>Carros Usados</option>
+                <option>Carros Novos</option>
+                <option>Promoções</option>
+            </select>
+            <select>
+                <option value="" disabled selected>Selecione a Marca</option>
+                <option>Ford</option>
+                <option>Chevrolet</option>
+                <option>Honda</option>
+            </select>
+            <select>
+                <option value="" disabled selected>Selecione Contato</option>
+                <option>Fale Conosco</option>
+                <option>Localização</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Carousel no Banner -->
+    <div class="banner">
+        <div class="slides">
+            <img src="img/648b481f963086.34069885.png" alt="Carro 1">
+            <img src="img/carro2.jpg" alt="Carro 2">
+            <img src="img/carro3.jpg" alt="Carro 3">
+        </div>
+    </div>
+
+    <!-- Catálogo de Carros -->
+    <section class="catalog">
+        <div class="catalog-card">
+            <img src="img/Gladiator-1.jpg" alt="Carro 1">
+            <h3>Jeep Gladiator</h3>
+            <p>Sua aventura ainda mais completa com muita capacidade de carga, levando tudo o que importa com espaço para até 1.000L na caçamba. Além disso, também conta com a capacidade de reboque de 3.138kg. A capota marítima não renuncia o design robusto da sua picape e conserva o conteúdo da caçamba, mantendo a estética e garantindo mais segurança e conforto para você.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="catalog-card">
+            <img src="img/img-commander.png" alt="Carro 1">
+            <h3>Jeep Commander</h3>
+            <p>O Jeep Commander vem com teto na cor preta equipado em todas as suas versões. Garantia de estilo e esportividade que combinam com o seu bom gosto.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="catalog-card">
+            <img src="img/jeep2.png" alt="Carro 1">
+            <h3>Jeep Compass 4XE</h3>
+            <p>O Compass 4xe vem de fábrica com serviços exclusivos de conectividade. Através da funcionalidade, você sabe o quanto dirigiu com cada motor, vê o nível de bateria, busca pontos de recarga no navegador e muito mais. Além disso, a versão Série S 4xe conta com a função Alexa in Vehicle, que leva a assistência virtual para dentro do SUV da Jeep.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="catalog-card">
+            <img src="img/carroluxo.png" alt="Carro 1">
+            <h3>Jeep Compass</h3>
+            <p>O conjunto ótico do Compass ganhou novo design, ainda mais sofisticado. Em LED até nos faróis de neblina, tem durabilidade e performance otimizadas, trazendo mais segurança ao dirigir noturno.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="catalog-card">
+            <img src="img/jeep-renegade.png" alt="Carro 1">
+            <h3>Jeep Renegade</h3>
+            <p>Basta uma olhada no Renegade e você já sabe: é Jeep! Ele exibe a história e o DNA da marca em seu design robusto e único, com 7 fendas, faróis arredondados e formato inconfundível.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="catalog-card">
+            <img src="img/tipos-de-carro-hatch-new-city-hatchback.jpg" alt="Carro 1">
+            <h3>Honda City Hatch</h3>
+            <p>O Honda City Hatch é um modelo que foi lançado no Brasil em 2022 pela Honda, atualizando a linha de hatchs da marca no país. São dois modelos do carro disponíveis: EXL e Touring – ambos com motor 1.5 de injeção direta.</p>
+            <button>Saiba Mais</button>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato com Imagem ao Lado -->
+    <section class="form-container">
+        <div class="contact-form">
+            <h2>Entre em Contato</h2>
+                <form action="#">
+                    <label for="nome"><i class="fas fa-user"></i>Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome:">
+
+                    <label for="email"><i class="fas fa-envelope"></i>Email:</label>
+                    <input type="email" id="email" placeholder="Digite seu email:">
+
+                    <label for="message"><i class="fas fa-comment"></i>Qual carro deseja?</label>
+                    <textarea id="nome" placeholder="Digite sua mensagem:"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="form-image">
+                <img src="img/logo.png" alt="Vendedora Savior Car">    
+           </div>
+    </section>
+     <!-- Feedback dos Clientes -->
+    <section class="feedback-grid">
+        <div class="feedback-card">
+            <h3>Cliente Laryssa</h3>
+            <p>Achei o carro perfeito! Recomendo a todos.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <!-- Comentário 2 -->
+        <div class="feedback-card">
+            <h3>Cliente Fernando</h3>
+            <p>Achei o carro confortável!</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #333; color: #fff; padding: 40px 50px;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+            <!-- Coluna 1: Menus de Navegação -->
+            <div style="flex: 1;">
+                <h3>Menu</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Carros Usados</a></li> <!-- Copie e cola esta mesma linha 4 vezes como abaixo-->
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Carros Novos</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Promoções</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Fale Conosco</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Localização</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 2: Políticas e Termos -->
+            <div style="flex: 1;">
+                <h3>Políticas</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Política de Privacidade</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Termos de Serviço</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Formulário de Newsletter -->
+            <div style="flex: 1;">
+                <h3>Receba nossas Novidades</h3>
+                <form action="#" method="post" style="display: flex; flex-direction: column; gap: 10px;">
+                    <input type="email" name="email" placeholder="Seu email"
+                        style="padding: 10px; border-radius: 5px; border: none;">
+                    <button type="submit"
+                        style="padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+
+        <div style="margin-top: 30px; text-align: center;">
+            <p>&copy; 2024 Vendedora de Carros. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
